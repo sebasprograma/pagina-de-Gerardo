@@ -1,0 +1,162 @@
+
+html{
+    background-color: rgb(44, 66, 45);
+}
+body {
+    font-family:Monaco,Georgia,Times,serif;
+  }
+#contenedor{
+    background-color:#F4ABF2;
+    border:2px solid #FF0000;
+    margin: 0;
+    width: 100%;
+}
+#cabecera{
+    background-color:#E5BC7A;
+    height:20%;
+    margin: 0;
+    margin-top: 0;
+}
+#menu{
+    height:10%;
+    background-color:#C8CACC;
+    margin: 0;
+}
+#izquierda{
+    height:100%;
+    position: relative;
+    float:left;
+    width:15%;
+    
+    
+}
+#derecha{
+    height:50%;
+    background-color:#DAF7E2;
+    float:right;
+    width:15%;
+    height: 100%;
+   
+    
+}
+#pie{
+    height:5%;
+    background-color:#D3D1C1;
+    clear:both;
+    bottom: 0;
+   position: fixed;
+    width: 100%;
+}
+#centro {
+    color: #fff;
+    
+    
+    width: 100%;
+}
+#listas {
+    margin-left: 5%;
+    
+    float: left;
+    
+}
+li{
+    color: black;
+}
+dt,dd{
+    color:black
+}
+#lista{
+    width: 60px;
+    height: 80px;
+}
+#table{
+    float: left ;
+}
+#tabla2{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+#image{
+    width: 500px;
+    display: block;
+    background-color: #141007;
+}
+a,#menu{
+    color:black;
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.1rem;
+    font-family: var(--fuenteBarra);
+    text-align: center;
+    margin: 35px;
+    color: white;
+}
+a,#menu:hover{
+    color: red;
+}
+#video{
+    width: 500px;
+    float: right;
+    margin-left: 0%;
+    margin-right: 15%;
+}
+
+#fieldset{
+    width: 50%;
+}
+#fieldset2{
+    width: 15%;
+}
+/*#################MENU##################*/
+
+nav{
+    border-radius: 20%;
+}
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      margin: 0%;
+      padding:0%;
+      overflow: hidden;
+      }        
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      overflow: hidden;
+      border-radius: 15% solid #000;
+      text-align:center;
+      color:#fff;
+      justify-content: center;
+      margin: 0%;
+      padding:0%;
+      padding-top: 10px;
+      white-space: break-word;
+}
+            
+nav li:hover{
+      
+      color:#030202;
+      border-radius: 3%;
+      }
+            
+nav li>ul{
+      display:none;
+      margin: 0%;
+      padding:0%;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+      border-radius: 3%;
+}
+#menu {
+
+    text-align: center;
+    background-color: #141007;
+}

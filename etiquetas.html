@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Faridez</title>
+
+
+</head>
+<body >
+    <header>
+        <h1>Desarrollo web</h1>
+    </header>
+    <nav id="menu">
+        <div id="navBar">
+             <a id='menu' href="index.html">Inicio/Listas</a>
+             <a id='menu' href="tablas.html">Tablas</a>
+             <a id='menu' href="content.html">Contenido Embebido</a>
+             <a id='menu' href="etiquetas.html">Etiquetas 'Nuevas'</a>
+             <a id='menu'href="contacto.html">Contacto</a>
+         </div>
+     </nav>
+    <main>
+        <section>
+            <h2>Poderosísimas etiquetas nuevas</h2>
+            <article>
+                <h3>Etiqueta Dialog</h3>
+                <dialog id="modal">
+                    Soy una ventana Modal
+                    <button id="btn_close">Close Modal</button>
+                </dialog>
+                <button id="btn.open">Open Modal</button>
+                <script>
+                    btn_open.onclick = function(){
+                        modal.open = true
+                    }
+                    btn_close.onclick = function(){
+                        modal.open = false
+                    }
+                </script>
+            </article>
+            <article>
+                <h3>Etiqueta Details</h3>
+                <details>
+                    <summary>Read more</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corporis porro tempora praesentium dicta, suscipit at voluptatem reiciendis odio molestiae necessitatibus repellendus ipsa. Molestiae, voluptas ex? Ab dolores alias sed.</p>
+                    <img src="bg.png" alt=" Descripcion de la imagen" width="100%">
+                </details>
+                <details >
+                    <summary>Read more</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem corporis porro tempora praesentium dicta, suscipit at voluptatem reiciendis odio molestiae necessitatibus repellendus ipsa. Molestiae, voluptas ex? Ab dolores alias sed.</p>
+                    <img src="bg.png" alt=" Descripcion de la imagen" width="100%">
+                </details>
+            </article>
+        </section> 
+    </main>
+</body>
+</html>
